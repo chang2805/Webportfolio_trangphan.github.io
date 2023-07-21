@@ -1,0 +1,284 @@
+
+
+.container-fluid span {
+    margin-left: 160px;
+    font-size: 32px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav.justify-content-end{
+    margin-right: 160px;
+}
+
+.nav li a {
+    color: black;
+    display: block;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.nav li:hover a {
+    color: #500ff6;
+    transition: .4s;
+}
+
+/* Home */
+.Home {
+    justify-content: space-between;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 32px 160px 120px 180px;
+}
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 65px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 45px;
+    color: #500ff6 ;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.button a {
+    padding: 12px 35px;
+    border-radius: 50px;
+    background: #500ff6;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: .5s;
+    box-shadow: none;
+}
+
+.button a:hover {
+    color: #FFFFFF;
+    box-shadow: 0 0 15px #723afe8c;
+}
+
+.image img {
+    width: 700px;
+    height: 700px;
+    margin-left: 48px;
+}
+
+
+/* About mẹ */
+.About {
+    justify-content: space-between;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 32px 160px 120px 180px;
+}
+
+.image-about img {
+    width: 500px;
+    height: auto;
+    margin-right: 48px;
+}
+
+.about-content {
+    max-width: 800px;
+}
+
+.about-content h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 1.2;
+    color: #500ff6 ;
+    margin-bottom: 16px;
+}
+
+.about-content h3 {
+    font-size: 32px;    
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #272727;
+}
+
+.skills h3 {
+    padding: 20px 0 12px 0;
+    font-size: 32px;   
+}
+
+.skills img  { 
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 24px;
+width: 45px;
+height: 45px;
+}
+
+/* My major */
+.major {
+    justify-content: space-between;
+    width: 100%;
+    padding: 120px 160px;
+}
+
+.major h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-align: center;
+    color: #500ff6;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+.box .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    border-radius: 16px;
+    width: 32%;
+    height: 600px;
+box-shadow: 2px 4px 15px #a27dff50;
+    padding: 40px;
+    background: #ffffff;
+    margin-right: 42px;
+}
+
+img {
+    width: 250px; height:250px;
+}
+
+.card h5{
+    color: #500ff6;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card P{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Works */
+.works {
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding: 120px 160px;
+}
+
+.works h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-align: center;
+    color: #500ff6;
+    margin-bottom: 32px;
+}
+
+.grid-container {
+    display: grid;
+   justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 64px;
+  }
+  
+  
+.grid-container .prj {
+    justify-content: center;
+  }
+
+.grid-container img {
+    width: 100%;
+    height: 85%;
+    margin-bottom: 24px;
+    border-radius: 16px;
+  }
+
+  .grid-container p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* Contact */
+.Contact{
+    justify-content: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 60px;
+}
+
+  
+  .Contact h2{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-align: center;
+    color: #500ff6;
+    margin-bottom: 16px;
+  }
+
+  .Contact p {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .form1 {
+    display: flex;
+    justify-content: center;
+  }
+.form-group {
+    margin-bottom: 24px;
+
+}
+
+.form-group label{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.form-group input{
+    height: 50px;
+    width: 400px;
+}
+
+.form1 button{
+color: #FFF;
+font-size: 16px;
+height: 57px;
+width: 400px;
+padding: 12px 32px;
+flex-shrink: 0;
+border-radius: 50px;
+background: var(--color-primary, #500ff6);
+box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+}
